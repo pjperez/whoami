@@ -34,7 +34,7 @@ That IP address is actually the IP address of your ISP DNS forwarder. In my case
 
 It gets better, why don't you try a txt record?
 
-    pjperez@whoami:~$ dig +short whoami.fluffcomputing.com **txt**
+    pjperez@whoami:~$ dig +short whoami.fluffcomputing.com txt
     "London, United Kingdom"
   
 What's that? That's the geolocation of your ISP DNS forwarder! Based on Maxmind's [GeoLite2](http://dev.maxmind.com/geoip/geoip2/geolite2/) DB.
